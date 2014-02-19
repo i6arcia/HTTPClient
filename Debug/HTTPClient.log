@@ -1,0 +1,42 @@
+﻿Build started 17/02/2014 01:47:04 p. m..
+     1>Project "C:\Users\Garcia\Downloads\HTTPClient\HTTPClient.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Debug\HTTPClient.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /FR".\Debug\\" /Gd /TC /analyze- /errorReport:prompt API\HTTPClient.c API\HTTPClientAuth.c HTTPClientSample.c API\HTTPClientString.c API\HTTPClientWrapper.c
+         HTTPClient.c
+         HTTPClientAuth.c
+         HTTPClientSample.c
+         HTTPClientString.c
+         HTTPClientWrapper.c
+         Generating Code...
+       ManifestResourceCompile:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\HTTPClient.exe.embed.manifest.res" .\Debug\HTTPClient_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/HTTPClient.exe" /INCREMENTAL /NOLOGO ws2_32.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\HTTPClient.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/HTTPClient.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\HTTPClient.lib" /MACHINE:X86 .\Debug\HTTPClient.exe.embed.manifest.res
+         .\Debug/HTTPClient.obj
+         .\Debug/HTTPClientAuth.obj
+         .\Debug/HTTPClientSample.obj
+         .\Debug/HTTPClientString.obj
+         .\Debug/HTTPClientWrapper.obj
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug\HTTPClient.exe.embed.manifest" /manifest .\Debug\HTTPClient.exe.intermediate.manifest
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\HTTPClient.exe.embed.manifest.res" .\Debug\HTTPClient_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/HTTPClient.exe" /INCREMENTAL /NOLOGO ws2_32.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\HTTPClient.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/HTTPClient.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\HTTPClient.lib" /MACHINE:X86 .\Debug\HTTPClient.exe.embed.manifest.res
+         .\Debug/HTTPClient.obj
+         .\Debug/HTTPClientAuth.obj
+         .\Debug/HTTPClientSample.obj
+         .\Debug/HTTPClientString.obj
+         .\Debug/HTTPClientWrapper.obj
+         HTTPClient.vcxproj -> C:\Users\Garcia\Downloads\HTTPClient\.\Debug\HTTPClient.exe
+       BscMake:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o".\Debug\HTTPClient.bsc" .\Debug\HTTPClient.sbr .\Debug\HTTPClientAuth.sbr .\Debug\HTTPClientSample.sbr .\Debug\HTTPClientString.sbr .\Debug\HTTPClientWrapper.sbr
+       FinalizeBuildStatus:
+         Deleting file ".\Debug\HTTPClient.unsuccessfulbuild".
+         Touching ".\Debug\HTTPClient.lastbuildstate".
+     1>Done Building Project "C:\Users\Garcia\Downloads\HTTPClient\HTTPClient.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:18.29

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{50fbbd4c-af88-4662-9a4e-f771d65fab89}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{4def34d5-5a41-42bc-af85-82d9f0f9d37c}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{d8b7dd7e-5d2c-40d9-8245-a49cbe7f6ad5}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="API\HTTPClient.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="API\HTTPClientAuth.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HTTPClientSample.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="API\HTTPClientString.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="API\HTTPClientWrapper.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="API\HTTPClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="API\HTTPClientAuth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="API\HTTPClientCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HTTPClientSample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="API\HTTPClientString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="API\HTTPClientWrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
